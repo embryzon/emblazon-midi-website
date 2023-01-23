@@ -68,7 +68,7 @@ p {
     background-color: var(--navbarDarkBGHover);
 }
 
-.hero {
+.carousel {
     display: block;
     top: 0;
     /* background-image: url("./img/lyrith.jpg"); */
