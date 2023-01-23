@@ -15,7 +15,8 @@ body {
 }
 
 p {
-    text-align: center;
+    /* text-align: center; */
+    line-height: 2em;
 }
 
 .top {
@@ -68,13 +69,39 @@ p {
 }
 
 .hero {
-    display:block
+    display: block;
     top: 0;
+    /* background-image: url("./img/lyrith.jpg"); */
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: var(--heroBG);
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 .heroText {
     text-align: center;
-    background-color: var(--heroBG);
-    padding-top: 250px;
-    padding-bottom: 250px;
+}
+
+.content, .bottom {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bottom {
+    height: 48px;
+}
+
+.left {
+    display: inline;
+    float: left;
+    line-height: normal;
+}
+
+.right {
+    display: inline;
+    float: right;
 }
