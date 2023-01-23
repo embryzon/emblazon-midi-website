@@ -68,15 +68,16 @@ p {
     background-color: var(--navbarDarkBGHover);
 }
 
-.carousel {
+.hero {
     display: block;
-    top: 0;
-    /* background-image: url("./img/lyrith.jpg"); */
+    /* top: 0; */
+    /* background-image: url("./img/asbcak");
     background-repeat: no-repeat;
-    background-blend-mode: multiply;
+    background-blend-mode: multiply; */
     background-color: var(--heroBG);
     padding-top: 250px;
     padding-bottom: 250px;
+
 }
 
 .heroText {
