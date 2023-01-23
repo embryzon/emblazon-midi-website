@@ -98,7 +98,10 @@ p {
 .left {
     display: inline;
     float: left;
-    line-height: normal;
+}
+
+#location {
+    float: right;
 }
 
 .right {
