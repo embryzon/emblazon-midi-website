@@ -1,13 +1,9 @@
 :root {
-    --darkBG: #100A1A;
-    --textDarkBG: #FFFF;
-    --navbarDarkBG: #302B36;
-    --navbarDarkBGHover: #27232c;
-    --heroBG: #4B5160;
 }
 
 .main {
     height: 100vh;
+
 }
 
 .btn {
@@ -22,5 +18,39 @@
     width: 90%;
 }
 
+.card:hover , .card:active{
+    box-shadow:  0 0 10px 5px #5d5d79;
+    width: 95%;
+    transition: 0.25s ease-in-out;
+}
 
+.discord-icon {
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.95)
+      ),
+      url("./img/lyrith-1.png");
+    background-size: cover;
+}
+
+.download-icon {
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.95)
+      ),
+      url("./img/marenol-1.png");
+    background-size: cover;
+}
+
+.file-icon {
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.95)
+      ),
+      url("./img/mopemope-1.png");
+    background-size: cover;
+}
 
