@@ -1,17 +1,42 @@
 :root {
 }
 
-.main {
-    height: 100vh;
+.pfp-img {
+    background-color: rgba(255, 255, 255, 0.884);
+}
 
+.main{
+    padding-top: 3%;
+    width: 100%;
+}
+
+.emblazon-pfp {
+    border-radius: 50%;
+    border: 5px solid rgb(129, 108, 223);
+    cursor: pointer;
+}
+
+.handle {
+    
+    color: rgb(129, 108, 223);
+    background-color: black;
+    transition: 0.2s ease-in;
+}
+
+.handle:hover {
+    background-color: #5d5d79;
+    border-radius: 5%;
+    color: white;
+    cursor: pointer;
 }
 
 .btn {
     display: block;
+    width: 100%; 
 }
 
 .cards-wrapper {
-    width: calc(75%/3);
+    width: 100%;
 }
 
 .card {
@@ -21,7 +46,7 @@
 .card:hover , .card:active{
     box-shadow:  0 0 10px 5px #5d5d79;
     width: 95%;
-    transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in;
 }
 
 .discord-icon {
