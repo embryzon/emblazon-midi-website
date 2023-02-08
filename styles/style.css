@@ -65,7 +65,11 @@
 }
 
 #download-items {
-    height: 75vh;
+    height: 80vh;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+.top-part {
+    background-color: #5d5d79;
 }
