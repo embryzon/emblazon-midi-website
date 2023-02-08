@@ -176,7 +176,7 @@ var midis = [
 window.onload = function() {
     loadItems(midis);
 
-    alert("Please use 'Ctrl + F' or 'Cmd + F' for now. If you are in mobile, tap the 'find in page' in your browsers.");
+    alert("In finding the songs you want to downlaod, please use 'Ctrl + F' or 'Cmd + F' for now. If you are in mobile, tap the 'find in page' in your browsers. Please report to my DIscord Server if any of the links are not working.");
 }
 
 
