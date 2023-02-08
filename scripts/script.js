@@ -174,7 +174,7 @@ var midis = [
 ];
 
 window.onload = loadItems(midis);
-// alert("Right now, client-side search feature is work in progress. Please use 'Ctrl + F' or 'Cmd + F' for now.");
+alert("Right now, client-side search feature is work in progress. Please use 'Ctrl + F' or 'Cmd + F' for now. If you are in mobile, tap the 'find in page' in your browsers");
 
 function loadItems(arr){
     div = document.getElementById('download-items');
