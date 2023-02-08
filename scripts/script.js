@@ -169,7 +169,7 @@ var midis = [
         dateOrder: 18,
         artist: 'Trina Lydia',
         noteCount: 'I forgot //',
-        fileSize:  'Havent checked yet'
+        fileSize:  '268 KB'
     },
 ];
 
