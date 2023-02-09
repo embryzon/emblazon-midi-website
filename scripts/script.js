@@ -91,7 +91,7 @@ var midis = [
         fileSize:  '650.21 KB'
     },
     {
-        title: 'My War (Attack on Titan Final Season OP)',
+        title: 'My War',
         fileDownload: 'My_War.mid',
         bg: 'war',
         dateOrder: 10,
@@ -109,7 +109,7 @@ var midis = [
         fileSize:  '547.65 KB'
     },
     {
-        title: 'Nothing but Theory (More JazzFunktion Mix)',
+        title: 'Nothing but Theory',
         fileDownload: 'nothing_but_theory.mid',
         bg: 'theory',
         dateOrder: 12,
@@ -118,7 +118,7 @@ var midis = [
         fileSize:  '708 KB'
     },
     {
-        title: 'Tokyo Wonder (Tokyo Revengers ED 2)',
+        title: 'Tokyo Wonder',
         fileDownload: 'Nakimushi_Tokyo_Wonder.mid',
         bg: 'tokyo',
         dateOrder: 13,
@@ -176,7 +176,7 @@ var midis = [
 window.onload = function() {
     loadItems(midis);
 
-    alert("In finding the songs you want to download, please use 'Ctrl + F' or 'Cmd + F' for now. If you are in mobile, tap the 'find in page' in your browsers. Please report to my DIscord Server if any of the links are not working.");
+    // alert("In finding the songs you want to download, please use 'Ctrl + F' or 'Cmd + F' for now. If you are in mobile, tap the 'find in page' in your browsers. Please report to my DIscord Server if any of the links are not working.");
 }
 
 
