@@ -73,7 +73,7 @@ var midis = [
         fileSize:  '385.48 KB'
     },
     {
-        title: 'Septette for the Dead Princess',
+        title: 'SFTDP',
         fileDownload: 'Septette_for_my_dead_serverRST.mid',
         bg: 'rst',
         dateOrder: 8,
@@ -176,7 +176,7 @@ var midis = [
 window.onload = function() {
     loadItems(midis);
 
-    alert("In finding the songs you want to downlaod, please use 'Ctrl + F' or 'Cmd + F' for now. If you are in mobile, tap the 'find in page' in your browsers. Please report to my DIscord Server if any of the links are not working.");
+    alert("In finding the songs you want to download, please use 'Ctrl + F' or 'Cmd + F' for now. If you are in mobile, tap the 'find in page' in your browsers. Please report to my DIscord Server if any of the links are not working.");
 }
 
 
@@ -191,14 +191,14 @@ function loadItems(arr){
         var temp='';
 
         //FINALIZE THIS LATER
-        // if (i % 3 == 0){
+        if (i % 3 == 0){
             temp += `<div class="row m-2">`;
-        // }
+        }
 
         temp += 
-        `<div class="col-lg-12">
-            <div class="card bg-black text-white mx-auto mb-2 song-title-${i}">
-                <div class="card-body">
+        `<div class="col-lg-4 ">
+            <div class="card bg-black text-white mx-auto mb-2">
+                <div class="card-body  song-title-${i}">
                     <kbd class="bg-transparent">
                     <h5 class=" card-title pt-5 rounded"> ${arr[i].title} </h5>
                     <hr>
@@ -213,9 +213,9 @@ function loadItems(arr){
             </div>
         </div>`;
 
-        // if (i % 3 == 2){
+        if (i % 3 == 2){
             temp += `</div>`;
-        // }
+        }
         str += temp;
     }
     
@@ -223,14 +223,16 @@ function loadItems(arr){
 
     for (let i = 0; i < arr.length; i++){
         var title = document.querySelector(`.song-title-${i}`);
-        console.log(i);
-        title.style.background = 
+        title.style.backgroundImage = 
         `linear-gradient(
-            rgba(0, 0, 0, 0.85), 
-            rgba(0, 0, 0, 0.99)
+            rgba(0, 0, 0, 0.9), 
+            rgba(0, 0, 0, 0.95)
           ),
-          url("../img/bg/${arr[i].bg}.png")`; 
+        url("../img/bg/${arr[i].bg}.png")`; 
           title.style.backgroundPosition = `center`;
+          title.style.backgroundSize = `cover`;
+          title.style.backgroundRepeat = `no-repeat`;
+        //   title.style.backgroundBlendMode = `multiply`;
     }
 }
 

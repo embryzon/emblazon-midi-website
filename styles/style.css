@@ -7,6 +7,18 @@
     height: 100vh;
 }
 
+/* .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    width: 293px;
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    white-space: nowrap;
+} */
+
 .btn {
     display: block;
     width: 100%; 
@@ -18,6 +30,7 @@
 
 .card {
     width: 90%;
+    /* max-height: 100%; */
 }
 
 .card:hover , .card:active{
@@ -68,6 +81,11 @@
     height: 80vh;
     overflow-y: scroll;
     overflow-x: hidden;
+    /* overflow-x: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    color-scheme: dark; */
 }
 
 .top-part {
